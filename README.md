@@ -44,4 +44,9 @@ Things you may want to cover:
   docker tag composeandrails synthmax/compose-and-rails:part1
   docker push synthmax/compose-and-rails:part1
 
+* Digital ocean pass:
+  look in pastor
+
+  docker-cloud service run -p 80 --name web synthmax/compose-and-rails:part1
+
 * ...
